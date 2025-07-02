@@ -15,7 +15,7 @@ sudo apt install git -y
 
 ```bash
 git clone https://github.com/username/repo-name
-cd test
+cd repo-name
 ```
 
 ---
