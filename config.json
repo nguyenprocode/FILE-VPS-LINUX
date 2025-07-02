@@ -1,0 +1,126 @@
+{
+    "notiGroup": true,
+    "notiUnsend": 10,
+    "iconUnsend": {
+        "status": true,
+        "icon": "👍"
+    },
+    "NOTIFICATION": true,
+    "language": "vi",
+    "keyActive": "",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "autoClean": true,
+    "adminOnly": false,
+    "encryptSt": false,
+    "UPTIME": false,
+    "DASHBOARD": false,
+    "commandDisabled": [
+        "tagadmin.js",
+        "tagadmin.js",
+        "prefix.js",
+        "prefix.js"
+    ],
+    "eventDisabled": [
+        "antinamebot.js"
+    ],
+    "ACCESSTOKEN": "EAAD6V7os0gcBO9oYn6ZBPTgZAkaSehUfZCBFoc9fYuOaF985MclxwmMET0p2AZB1YZAmdihp161XjZBZCHTmyDdQjWtvs5gloxYmha0Gv2AWnzkGZBOcpPNRuh3BaOlul80Perqym5ajSCQ2fDy4JsN3LG3rWjflt5VJ0bsWSOpbvPTy5AYirldx8RvhugZDZD",
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "TDS_TOKEN": "TDS0nI2IXZ2V2ciojIyVmdlNnIsISOwAzayFGRiojIyV2c1Jye",
+    "BOTNAME": "𝕊𝕒𝕥𝕠𝕣𝕦",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/thanhnguyentrummeta",
+    "PREFIX": "!",
+    "ADMINBOT": [
+        "100056204041775"
+    ],
+    "NDH": [
+        "100056204041775"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "NPM_FCA": "./gojo/hzi",
+    "SETUP_WIN": {
+        "port": 8080,
+        "use": "Nếu chạy nhiều hơn 1 file trên win thì thay đổi số này ở file thứ 2, 3, 4..."
+    },
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "silent",
+        "selfListen": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0"
+    },
+    "version": "1.2.15",
+    "menu": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 90
+        }
+    },
+    "kiemtien": {
+        "cooldownTime": 21600000
+    },
+    "spadmPaseOnly": true,
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 100000
+    },
+    "work": {
+        "cooldownTime": 21600000
+    },
+    "xidach": {
+        "maxPlayers": 5,
+        "normalWinBonus": 1,
+        "superWinBonus": 2,
+        "epicWinBonus": 4
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "log": {
+        "enable": true
+    },
+    "pokemon": {
+        "APIKEY": ""
+    },
+    "minecraft": {
+        "APIKEY": ""
+    },
+    "loto": {
+        "maxPlayers": 10,
+        "getDelay": 4
+    },
+    "farm": {
+        "cooldownTime": 300000
+    },
+    "cauca": {
+        "APIKEY": ""
+    },
+    "rankup": {
+        "autoUnsend": true,
+        "unsendMessageAfter": 5
+    },
+    "eventAnalyzer": {
+        "logToConsole": true
+    },
+    "send": {
+        "delayBetweenTests": 1000
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "nonkydieu": {
+        "rewardMoney": 100000,
+        "absoluteWinMoney": 200000
+    }
+}

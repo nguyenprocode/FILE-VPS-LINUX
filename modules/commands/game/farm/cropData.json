@@ -1,0 +1,17 @@
+{
+  "lúa": {
+    "growTime": 300000,
+    "value": 100,
+    "level": 1
+  },
+  "cà chua": {
+    "growTime": 600000,
+    "value": 200,
+    "level": 2
+  },
+  "dưa hấu": {
+    "growTime": 900000,
+    "value": 300,
+    "level": 3
+  }
+}

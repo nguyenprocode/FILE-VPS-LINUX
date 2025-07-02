@@ -1,0 +1,29 @@
+{
+  "name": "Hương Giangg",
+  "ID": "100039884092699",
+  "mainROD": null,
+  "GPS": {
+    "locate": "Sector Zero",
+    "area": "Shallow Twisty Bridges – Twisty Bridges"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Cá Thách Đấu",
+      "category": "Legendary",
+      "size": 999999,
+      "sell": 0
+    }
+  ],
+  "item": [
+    {
+      "name": "Ion Powered Trident",
+      "price": 57000,
+      "durability": 2000,
+      "countdown": 15,
+      "countdownData": null,
+      "image": "https://i.imgur.com/W5dAfCn.jpg"
+    }
+  ],
+  "timeRegister": "23:20:52 28/8/2024"
+}

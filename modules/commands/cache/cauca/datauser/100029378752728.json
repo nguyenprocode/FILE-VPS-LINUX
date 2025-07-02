@@ -1,0 +1,69 @@
+{
+  "name": "",
+  "ID": "100029378752728",
+  "mainROD": "Ion Powered Trident",
+  "GPS": {
+    "locate": "The Crater",
+    "area": "Lost River"
+  },
+  "fishBag": [
+    {
+      "ID": 0,
+      "name": "Cá Thách Đấu",
+      "category": "Legendary",
+      "size": 999999,
+      "sell": 0
+    },
+    {
+      "ID": 1,
+      "name": "Bleeder",
+      "category": "Uncommon",
+      "size": 19,
+      "sell": 370,
+      "image": "https://i.imgur.com/EVAjNvI.png"
+    },
+    {
+      "ID": 2,
+      "name": "Ghostray",
+      "category": "Uncommon",
+      "size": 250,
+      "sell": 990,
+      "image": "https://i.imgur.com/UC5HJWw.png"
+    },
+    {
+      "ID": 3,
+      "name": "Mesmer",
+      "category": "Rare",
+      "size": 67,
+      "sell": 990,
+      "image": "https://i.imgur.com/UUfnPCp.png"
+    },
+    {
+      "ID": 4,
+      "name": "Mesmer",
+      "category": "Rare",
+      "size": 67,
+      "sell": 990,
+      "image": "https://i.imgur.com/UUfnPCp.png"
+    },
+    {
+      "ID": 5,
+      "name": "Spinefish",
+      "category": "Common",
+      "size": 27,
+      "sell": 200,
+      "image": "https://i.imgur.com/inXivDO.jpg"
+    }
+  ],
+  "item": [
+    {
+      "name": "Ion Powered Trident",
+      "price": 57000,
+      "durability": 1940,
+      "countdown": 15,
+      "countdownData": 1725443634460,
+      "image": "https://i.imgur.com/W5dAfCn.jpg"
+    }
+  ],
+  "timeRegister": "14:41:47, 27/1/2024"
+}

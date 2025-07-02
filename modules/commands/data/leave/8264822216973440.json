@@ -1,0 +1,618 @@
+[
+  {
+    "name": "Ng Lan",
+    "uid": "100075115060138",
+    "time": "18:24:46 - 17/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100075115060138"
+  },
+  {
+    "name": "Kim Ngân",
+    "uid": "61560726602950",
+    "time": "16:57:35 - 18/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61560726602950"
+  },
+  {
+    "name": "Hà Vy",
+    "uid": "61561919774112",
+    "time": "21:24:06 - 18/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61561919774112"
+  },
+  {
+    "name": "Kim Chi",
+    "uid": "100088947297109",
+    "time": "10:16:23 - 19/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100088947297109"
+  },
+  {
+    "name": "Ng Truc Lii ❤️‍🩹",
+    "uid": "100087246823812",
+    "time": "18:10:40 - 19/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100087246823812"
+  },
+  {
+    "name": "Nhu Y Ha",
+    "uid": "100089594712436",
+    "time": "21:47:23 - 19/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100089594712436"
+  },
+  {
+    "name": "Minh Nguyenvan",
+    "uid": "100022564687326",
+    "time": "22:08:00 - 19/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100022564687326"
+  },
+  {
+    "name": "Lyyna Nè",
+    "uid": "61550274184181",
+    "time": "11:42:56 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61550274184181"
+  },
+  {
+    "name": "Nguyen Anh",
+    "uid": "100052360891792",
+    "time": "13:12:18 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100052360891792"
+  },
+  {
+    "name": "Nguyễn Thuỳ Trang",
+    "uid": "100080418210790",
+    "time": "16:55:07 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100080418210790"
+  },
+  {
+    "name": "A'nh Bangg",
+    "uid": "61562705259050",
+    "time": "13:49:51 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61562705259050"
+  },
+  {
+    "name": "Nguyễn Thị Thuỳ Dung",
+    "uid": "100044836490222",
+    "time": "15:43:21 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100044836490222"
+  },
+  {
+    "name": "Trần Lượng",
+    "uid": "100042553420140",
+    "time": "16:36:46 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100042553420140"
+  },
+  {
+    "name": "Phạm Huy",
+    "uid": "100041567060329",
+    "time": "17:02:21 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100041567060329"
+  },
+  {
+    "name": "Thư Nguyễn",
+    "uid": "61550488493581",
+    "time": "17:39:24 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61550488493581"
+  },
+  {
+    "name": "Phạm Ánh",
+    "uid": "61552565937955",
+    "time": "17:39:27 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61552565937955"
+  },
+  {
+    "name": "Nguyễn Vũ",
+    "uid": "61553101171392",
+    "time": "17:39:30 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61553101171392"
+  },
+  {
+    "name": "Trà My Vũ",
+    "uid": "61556929267664",
+    "time": "17:39:32 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61556929267664"
+  },
+  {
+    "name": "Ngọc Nhi",
+    "uid": "61557598598587",
+    "time": "17:39:35 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61557598598587"
+  },
+  {
+    "name": "Ngọc Hân",
+    "uid": "61558097747639",
+    "time": "17:39:38 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61558097747639"
+  },
+  {
+    "name": "Nếp Cẩm",
+    "uid": "61560892923946",
+    "time": "17:39:41 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61560892923946"
+  },
+  {
+    "name": "Khả Dy",
+    "uid": "61562521044916",
+    "time": "17:39:43 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/61562521044916"
+  },
+  {
+    "name": "Người dùng facebook",
+    "uid": "100002973016459",
+    "time": "17:39:46 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100002973016459"
+  },
+  {
+    "name": "Lê Hoàng Đông Quân",
+    "uid": "100005484648588",
+    "time": "17:39:49 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100005484648588"
+  },
+  {
+    "name": "Trang Thu Nguyen",
+    "uid": "100010110875653",
+    "time": "17:39:52 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100010110875653"
+  },
+  {
+    "name": "Hoàng Văn Tùng",
+    "uid": "100010603359492",
+    "time": "17:39:55 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100010603359492"
+  },
+  {
+    "name": "Đức Hoàng",
+    "uid": "100010750961643",
+    "time": "17:39:57 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100010750961643"
+  },
+  {
+    "name": "Cẩm Tú",
+    "uid": "100012104946313",
+    "time": "17:39:59 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100012104946313"
+  },
+  {
+    "name": "Bùi Thắng",
+    "uid": "100013807604393",
+    "time": "17:40:03 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100013807604393"
+  },
+  {
+    "name": "Lê Bảo Hân",
+    "uid": "100014660952714",
+    "time": "17:40:05 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100014660952714"
+  },
+  {
+    "name": "Vĩnh Trịnh",
+    "uid": "100016111847146",
+    "time": "17:40:08 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100016111847146"
+  },
+  {
+    "name": "Phạm Trương Mỹ Hoa",
+    "uid": "100021547982982",
+    "time": "17:40:11 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100021547982982"
+  },
+  {
+    "name": "Bụng Bự",
+    "uid": "100022328444108",
+    "time": "17:40:13 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100022328444108"
+  },
+  {
+    "name": "Nam Tiến",
+    "uid": "100024622651852",
+    "time": "17:40:16 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100024622651852"
+  },
+  {
+    "name": "Thành Đạt",
+    "uid": "100025060623068",
+    "time": "17:40:18 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100025060623068"
+  },
+  {
+    "name": "Trọng Nhân",
+    "uid": "100035595333941",
+    "time": "17:40:21 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100035595333941"
+  },
+  {
+    "name": "Văn Long Phạm",
+    "uid": "100035721702661",
+    "time": "17:40:24 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100035721702661"
+  },
+  {
+    "name": "Ng Thi Ngoc Diem",
+    "uid": "100036786821801",
+    "time": "17:40:27 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100036786821801"
+  },
+  {
+    "name": "Lê Nhật Yến Nhi",
+    "uid": "100040163974124",
+    "time": "17:40:29 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100040163974124"
+  },
+  {
+    "name": "Người dùng facebook",
+    "uid": "100041548036705",
+    "time": "17:40:32 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100041548036705"
+  },
+  {
+    "name": "Ngô NhậtAnh",
+    "uid": "100044408970330",
+    "time": "17:40:35 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100044408970330"
+  },
+  {
+    "name": "Đình Tuấn",
+    "uid": "100049395863528",
+    "time": "17:40:37 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100049395863528"
+  },
+  {
+    "name": "Đào Duy Mẫn",
+    "uid": "100049617949881",
+    "time": "17:40:40 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100049617949881"
+  },
+  {
+    "name": "Tiếu Đào Xu",
+    "uid": "100089810872099",
+    "time": "17:40:40 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100089810872099"
+  },
+  {
+    "name": "Quân Đoàn",
+    "uid": "100049975003982",
+    "time": "17:40:43 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100049975003982"
+  },
+  {
+    "name": "Ng Hà Linh",
+    "uid": "100054620512317",
+    "time": "17:40:46 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100054620512317"
+  },
+  {
+    "name": "Văn Thái",
+    "uid": "100057621151435",
+    "time": "17:40:47 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100057621151435"
+  },
+  {
+    "name": "Hiếu Đỗ",
+    "uid": "100054770540638",
+    "time": "17:40:48 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100054770540638"
+  },
+  {
+    "name": "Khắc Long",
+    "uid": "100055104666027",
+    "time": "17:40:51 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100055104666027"
+  },
+  {
+    "name": "Bùi Thảo Trâm",
+    "uid": "100060286496887",
+    "time": "17:40:55 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100060286496887"
+  },
+  {
+    "name": "Bùi A Nh Vũ",
+    "uid": "100063173940902",
+    "time": "17:40:57 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100063173940902"
+  },
+  {
+    "name": "Phuong Linhh",
+    "uid": "100064169381543",
+    "time": "17:41:00 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100064169381543"
+  },
+  {
+    "name": "Tram Anh",
+    "uid": "100065370391680",
+    "time": "17:41:02 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100065370391680"
+  },
+  {
+    "name": "Gia Linh",
+    "uid": "100080993889539",
+    "time": "17:41:04 - 20/10/2024",
+    "reason": "Đã tự động rời khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100080993889539"
+  },
+  {
+    "name": "Ngô Văn Tự",
+    "uid": "100067515850853",
+    "time": "17:41:05 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100067515850853"
+  },
+  {
+    "name": "Nguyễn Thành Tài",
+    "uid": "100072189847858",
+    "time": "17:41:08 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100072189847858"
+  },
+  {
+    "name": "Nguyễn Vĩ Khang",
+    "uid": "100073526257582",
+    "time": "17:41:11 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100073526257582"
+  },
+  {
+    "name": "Nguyễn Minh Thắng",
+    "uid": "100074918080374",
+    "time": "17:41:13 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100074918080374"
+  },
+  {
+    "name": "Tr Ngoc Kim Chau",
+    "uid": "100077676611970",
+    "time": "17:41:16 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100077676611970"
+  },
+  {
+    "name": "Mai Phượng",
+    "uid": "100077963180287",
+    "time": "17:41:18 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100077963180287"
+  },
+  {
+    "name": "Võ Văn Thành",
+    "uid": "100078805898009",
+    "time": "17:41:21 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100078805898009"
+  },
+  {
+    "name": "Lam Tiêu Tiêu",
+    "uid": "100079193674359",
+    "time": "17:41:23 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100079193674359"
+  },
+  {
+    "name": "Lenn",
+    "uid": "100079738684710",
+    "time": "17:41:26 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100079738684710"
+  },
+  {
+    "name": "Mai Thị Ái Nhi",
+    "uid": "100079768470859",
+    "time": "17:41:28 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100079768470859"
+  },
+  {
+    "name": "Mít Ướt",
+    "uid": "100081263704088",
+    "time": "17:41:33 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100081263704088"
+  },
+  {
+    "name": "Thanh Trân",
+    "uid": "100081485199809",
+    "time": "17:41:36 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100081485199809"
+  },
+  {
+    "name": "Thảo Dii",
+    "uid": "100081513590999",
+    "time": "17:41:39 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100081513590999"
+  },
+  {
+    "name": "Vie Xynk",
+    "uid": "100083083791860",
+    "time": "17:41:41 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100083083791860"
+  },
+  {
+    "name": "Ngọc Hân",
+    "uid": "100083126659492",
+    "time": "17:41:44 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100083126659492"
+  },
+  {
+    "name": "Người dùng facebook",
+    "uid": "100083876341750",
+    "time": "17:41:46 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100083876341750"
+  },
+  {
+    "name": "Kiều",
+    "uid": "100084208965026",
+    "time": "17:41:49 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100084208965026"
+  },
+  {
+    "name": "Ly Thảo",
+    "uid": "100084582356569",
+    "time": "17:41:51 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100084582356569"
+  },
+  {
+    "name": "Vũ Duy Hoàng",
+    "uid": "100085446887947",
+    "time": "17:41:53 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100085446887947"
+  },
+  {
+    "name": "Meo Xinh",
+    "uid": "100085461593061",
+    "time": "17:41:56 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100085461593061"
+  },
+  {
+    "name": "Đặng Lê Minh",
+    "uid": "100086705255311",
+    "time": "17:41:59 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100086705255311"
+  },
+  {
+    "name": "Buii Tramm",
+    "uid": "100088476867864",
+    "time": "17:42:01 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100088476867864"
+  },
+  {
+    "name": "Tuyet Anhh",
+    "uid": "100089481375169",
+    "time": "17:42:03 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100089481375169"
+  },
+  {
+    "name": "ィ Kei",
+    "uid": "100090405827275",
+    "time": "17:42:08 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100090405827275"
+  },
+  {
+    "name": "Dat Soo Sad",
+    "uid": "100090871991792",
+    "time": "17:42:11 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100090871991792"
+  },
+  {
+    "name": "Nguyễn Phúc",
+    "uid": "100091592763438",
+    "time": "17:42:13 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100091592763438"
+  },
+  {
+    "name": "Hoàng Huyền Châm",
+    "uid": "100091657935116",
+    "time": "17:42:16 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100091657935116"
+  },
+  {
+    "name": "Nguyễn Lộc",
+    "uid": "100092546836175",
+    "time": "17:42:19 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100092546836175"
+  },
+  {
+    "name": "Bich Ngocc",
+    "uid": "100092649879245",
+    "time": "17:42:22 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100092649879245"
+  },
+  {
+    "name": "Nguyen Tran Nhat Anh",
+    "uid": "100093454500394",
+    "time": "17:42:24 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100093454500394"
+  },
+  {
+    "name": "Kujou Aryaa",
+    "uid": "100093599021519",
+    "time": "17:42:27 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100093599021519"
+  },
+  {
+    "name": "Kaedehara Kazuha",
+    "uid": "100094536857392",
+    "time": "17:42:29 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100094536857392"
+  },
+  {
+    "name": "Nguyễn Lê Thu Hiền",
+    "uid": "100094746313318",
+    "time": "17:42:32 - 20/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100094746313318"
+  },
+  {
+    "name": "Duc Anh",
+    "uid": "100085071460453",
+    "time": "10:26:10 - 21/10/2024",
+    "reason": "Đã bị Quản trị viên xóa khỏi nhóm.",
+    "facebook": "https://www.facebook.com/100085071460453"
+  }
+]

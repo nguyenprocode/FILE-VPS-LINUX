@@ -1,0 +1,1963 @@
+{
+  "playerData": {
+    "100029378752728": {
+      "exp": 11804,
+      "level": 11,
+      "helpCount": {}
+    },
+    "100027937773675": {
+      "exp": 0,
+      "level": 1,
+      "helpCount": {}
+    },
+    "100073687778571": {
+      "exp": 110957,
+      "level": 34,
+      "helpCount": {}
+    },
+    "100064850870032": {
+      "exp": 0,
+      "level": 1,
+      "helpCount": {}
+    },
+    "100040668850330": {
+      "exp": 92133,
+      "level": 31,
+      "helpCount": {}
+    },
+    "100082398355203": {
+      "exp": 1670,
+      "level": 5,
+      "helpCount": {}
+    },
+    "100087511867744": {
+      "exp": 5614,
+      "level": 8,
+      "helpCount": {}
+    },
+    "100067654132874": {
+      "exp": 15774,
+      "level": 13,
+      "helpCount": {}
+    },
+    "100051648671055": {
+      "exp": 7723,
+      "level": 9,
+      "helpCount": {}
+    },
+    "61555639724465": {
+      "exp": 5738,
+      "level": 8,
+      "helpCount": {}
+    },
+    "100069973091677": {
+      "exp": 6241,
+      "level": 8,
+      "helpCount": {}
+    },
+    "100074671737079": {
+      "exp": 0,
+      "level": 1,
+      "helpCount": {}
+    },
+    "100049341380412": {
+      "exp": 22536,
+      "level": 16,
+      "helpCount": {}
+    },
+    "100012044921768": {
+      "exp": 1668,
+      "level": 5,
+      "helpCount": {}
+    },
+    "100066464084817": {
+      "exp": 8672,
+      "level": 10,
+      "helpCount": {}
+    },
+    "100039884092699": {
+      "exp": 5370,
+      "level": 8,
+      "helpCount": {}
+    },
+    "100076273452362": {
+      "exp": 74506,
+      "level": 28,
+      "helpCount": {}
+    },
+    "100072123252487": {
+      "exp": 6474,
+      "level": 9,
+      "helpCount": {}
+    },
+    "100079972629147": {
+      "exp": 1592,
+      "level": 4,
+      "helpCount": {}
+    },
+    "100059402833435": {
+      "exp": 7255,
+      "level": 9,
+      "helpCount": {}
+    },
+    "100026741162470": {
+      "exp": 1562,
+      "level": 4,
+      "helpCount": {}
+    },
+    "100087818145927": {
+      "exp": 308,
+      "level": 2,
+      "helpCount": {}
+    },
+    "100085213902916": {
+      "exp": 39508,
+      "level": 20,
+      "helpCount": {}
+    },
+    "100093072671652": {
+      "exp": 3615,
+      "level": 7,
+      "helpCount": {}
+    },
+    "100086379657779": {
+      "exp": 3764,
+      "level": 7,
+      "helpCount": {}
+    },
+    "100088193109499": {
+      "exp": 308,
+      "level": 2,
+      "helpCount": {}
+    }
+  },
+  "plantSchema": {
+    "100029378752728": {},
+    "100027937773675": {
+      "ot": {
+        "plantedTime": 1726839832263,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1726839832263,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1726839832263,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1726839832263,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1726839832263,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1726839832263,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1726839832263,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1726839832263,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1726839832263,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1726839832263,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1726839832263,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1726839832263,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1726839832263,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1726839832263,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1726839832263,
+        "growTime": 10800000
+      }
+    },
+    "100073687778571": {
+      "ot": {
+        "plantedTime": 1732685664899,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1732685664899,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1732685664899,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1732685664899,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1732685664899,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1732685664899,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1732685664899,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1732685664899,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1732685664899,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1732685664899,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1732685664899,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1732685664899,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1732685664899,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1732685664899,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1732685664899,
+        "growTime": 10800000
+      }
+    },
+    "100064850870032": {
+      "ot": {
+        "plantedTime": 1727007014901,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1727007014901,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1727007014901,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1727007014901,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1727007014901,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1727007014901,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1727007014901,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1727007014901,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1727007014901,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1727007014901,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1727007014901,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1727007014901,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1727007014901,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1727007014901,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1727007014901,
+        "growTime": 10800000
+      }
+    },
+    "100040668850330": {
+      "ot": {
+        "plantedTime": 1731214349033,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1731214349033,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1731214349033,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1731214349033,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1731214349033,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1731214349033,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1731214349033,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1731214349033,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1731214349033,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1731214349033,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1731214349033,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1731214349033,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1731214349033,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1731214349033,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1731214349033,
+        "growTime": 10800000
+      }
+    },
+    "100082398355203": {},
+    "100087511867744": {
+      "ot": {
+        "plantedTime": 1727868019781,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1727868019781,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1727868019781,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1727868019781,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1727868019781,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1727868019781,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1727868019781,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1727868019781,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1727868019781,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1727868019781,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1727868019781,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1727868019781,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1727868019781,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1727868019781,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1727868019781,
+        "growTime": 10800000
+      }
+    },
+    "100067654132874": {
+      "ot": {
+        "plantedTime": 1727861368534,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1727861368534,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1727861368534,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1727861368534,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1727861368534,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1727861368534,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1727861368534,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1727861368534,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1727861368534,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1727861368534,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1727861368534,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1727861368534,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1727861368534,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1727861368534,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1727861368534,
+        "growTime": 10800000
+      }
+    },
+    "100051648671055": {
+      "ot": {
+        "plantedTime": 1728033931020,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1728033931020,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1728033931020,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1728033931020,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1728033931020,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1728033931020,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1728033931020,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1728033931020,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1728033931020,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1728033931020,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1728033931020,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1728033931020,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1728033931020,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1728033931020,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1728033931020,
+        "growTime": 10800000
+      }
+    },
+    "61555639724465": {
+      "ot": {
+        "plantedTime": 1729304933427,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1729304933427,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1729304933427,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1729304933427,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1729304933427,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1729304933427,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1729304933427,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1729304933427,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1729304933427,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1729304933427,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1729304933427,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1729304933427,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1729304933427,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1729304933427,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1729304933427,
+        "growTime": 10800000
+      }
+    },
+    "100069973091677": {},
+    "100074671737079": {
+      "ot": {
+        "plantedTime": 1727679752900,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1727679752900,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1727679752900,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1727679752900,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1727679752900,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1727679752900,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1727679752900,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1727679752900,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1727679752900,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1727679752900,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1727679752900,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1727679752900,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1727679752900,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1727679752900,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1727679752900,
+        "growTime": 10800000
+      }
+    },
+    "100049341380412": {
+      "ot": {
+        "plantedTime": 1729040420373,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1729040420373,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1729040420373,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1729040420373,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1729040420373,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1729040420373,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1729040420373,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1729040420373,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1729040420373,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1729040420373,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1729040420373,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1729040420373,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1729040420373,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1729040420373,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1729040420373,
+        "growTime": 10800000
+      }
+    },
+    "100012044921768": {
+      "ot": {
+        "plantedTime": 1728145510349,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1728145510349,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1728145510349,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1728145510349,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1728145510349,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1728145510349,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1728145510349,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1728145510349,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1728145510349,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1728145510349,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1728145510349,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1728145510349,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1728145510349,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1728145510349,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1728145510349,
+        "growTime": 10800000
+      }
+    },
+    "100066464084817": {
+      "ot": {
+        "plantedTime": 1729250964364,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1729250964364,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1729250964364,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1729250964364,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1729250964364,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1729250964364,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1729250964364,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1729250964364,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1729250964364,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1729250964364,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1729250964364,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1729250964364,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1729250964364,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1729250964364,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1729250964364,
+        "growTime": 10800000
+      }
+    },
+    "100039884092699": {
+      "ot": {
+        "plantedTime": 1728632642595,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1728632642595,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1728632642595,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1728632642595,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1728632642595,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1728632642595,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1728632642595,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1728632642595,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1728632642595,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1728632642595,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1728632642595,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1728632642595,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1728632642595,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1728632642595,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1728632642595,
+        "growTime": 10800000
+      }
+    },
+    "100076273452362": {
+      "ot": {
+        "plantedTime": 1732696347400,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1732696347400,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1732696347400,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1732696347400,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1732696347400,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1732696347400,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1732696347400,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1732696347400,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1732696347400,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1732696347400,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1732696347400,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1732696347400,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1732696347400,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1732696347400,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1732696347400,
+        "growTime": 10800000
+      }
+    },
+    "100072123252487": {
+      "ot": {
+        "plantedTime": 1730256443237,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1730256443237,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1730256443237,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1730256443237,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1730256443237,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1730256443237,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1730256443237,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1730256443237,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1730256443237,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1730256443237,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1730256443237,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1730256443237,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1730256443237,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1730256443237,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1730256443237,
+        "growTime": 10800000
+      }
+    },
+    "100079972629147": {},
+    "100059402833435": {
+      "ot": {
+        "plantedTime": 1732505201336,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1732505201336,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1732505201336,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1732505201336,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1732505201336,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1732505201336,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1732505201336,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1732505201336,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1732505201336,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1732505201336,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1732505201336,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1732505201336,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1732505201336,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1732505201336,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1732505201336,
+        "growTime": 10800000
+      }
+    },
+    "100026741162470": {
+      "ot": {
+        "plantedTime": 1732559412540,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1732559412540,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1732559412540,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1732559412540,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1732559412540,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1732559412540,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1732559412540,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1732559412540,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1732559412540,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1732559412540,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1732559412540,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1732559412540,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1732559412540,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1732559412540,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1732559412540,
+        "growTime": 10800000
+      }
+    },
+    "100085213902916": {
+      "ot": {
+        "plantedTime": 1732667450898,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1732667450898,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1732667450898,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1732667450898,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1732667450898,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1732667450898,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1732667450898,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1732667450898,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1732667450898,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1732667450898,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1732667450898,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1732667450898,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1732667450898,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1732667450898,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1732667450898,
+        "growTime": 10800000
+      }
+    },
+    "100093072671652": {
+      "ot": {
+        "plantedTime": 1730682881253,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1730682881253,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1730682881253,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1730682881253,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1730682881253,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1730682881253,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1730682881253,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1730682881253,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1730682881253,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1730682881253,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1730682881253,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1730682881253,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1730682881253,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1730682881253,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1730682881253,
+        "growTime": 10800000
+      }
+    },
+    "100086379657779": {
+      "ot": {
+        "plantedTime": 1732063921445,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1732063921445,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1732063921445,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1732063921445,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1732063921445,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1732063921445,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1732063921445,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1732063921445,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1732063921445,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1732063921445,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1732063921445,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1732063921445,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1732063921445,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1732063921445,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1732063921445,
+        "growTime": 10800000
+      }
+    },
+    "100088193109499": {
+      "ot": {
+        "plantedTime": 1731909319018,
+        "growTime": 1200000
+      },
+      "ngo": {
+        "plantedTime": 1731909319018,
+        "growTime": 1200000
+      },
+      "khoaitay": {
+        "plantedTime": 1731909319018,
+        "growTime": 1800000
+      },
+      "caingot": {
+        "plantedTime": 1731909319018,
+        "growTime": 1800000
+      },
+      "dautay": {
+        "plantedTime": 1731909319018,
+        "growTime": 3600000
+      },
+      "lua_gao": {
+        "plantedTime": 1731909319018,
+        "growTime": 3600000
+      },
+      "hanh": {
+        "plantedTime": 1731909319018,
+        "growTime": 1800000
+      },
+      "rau_xa_lach": {
+        "plantedTime": 1731909319018,
+        "growTime": 2400000
+      },
+      "dua_chuot": {
+        "plantedTime": 1731909319018,
+        "growTime": 2700000
+      },
+      "ca_chua": {
+        "plantedTime": 1731909319018,
+        "growTime": 3300000
+      },
+      "chuoi": {
+        "plantedTime": 1731909319018,
+        "growTime": 5400000
+      },
+      "dua_hau": {
+        "plantedTime": 1731909319018,
+        "growTime": 7200000
+      },
+      "nho": {
+        "plantedTime": 1731909319018,
+        "growTime": 6000000
+      },
+      "khoai_lang": {
+        "plantedTime": 1731909319018,
+        "growTime": 3000000
+      },
+      "dau_dua": {
+        "plantedTime": 1731909319018,
+        "growTime": 10800000
+      }
+    }
+  },
+  "cooldowns": {
+    "100029378752728": {
+      "bo": 1726836330888,
+      "ga": 1726836330888,
+      "heo": 1726836330888,
+      "cuu": 1726836330888,
+      "vit": 1726836330888,
+      "de": 1726836330888
+    },
+    "100073687778571": {
+      "bo": 1732685659462,
+      "ga": 1732685659462,
+      "heo": 1732685659462,
+      "cuu": 1732685659462,
+      "vit": 1732685659462,
+      "de": 1732685659462
+    },
+    "100040668850330": {
+      "bo": 1731214352861,
+      "ga": 1731214352861,
+      "heo": 1731214352861,
+      "cuu": 1731214352861,
+      "vit": 1731214352861,
+      "de": 1731214352861
+    },
+    "100082398355203": {
+      "bo": 1727333542219,
+      "ga": 1727333542219,
+      "heo": 1727333542219,
+      "cuu": 1727333542219,
+      "vit": 1727333542219,
+      "de": 1727333542219
+    },
+    "100087511867744": {
+      "bo": 1727868028313,
+      "ga": 1727868028313,
+      "heo": 1727868028313,
+      "cuu": 1727868028313,
+      "vit": 1727868028313,
+      "de": 1727868028313
+    },
+    "100067654132874": {
+      "bo": 1727861374831,
+      "ga": 1727861374831,
+      "heo": 1727861374831,
+      "cuu": 1727861374831,
+      "vit": 1727861374831,
+      "de": 1727861374831
+    },
+    "61555639724465": {
+      "bo": 1729304951770,
+      "ga": 1729304951770,
+      "heo": 1729304951770,
+      "cuu": 1729304951770,
+      "vit": 1729304951770,
+      "de": 1729304951770
+    },
+    "100051648671055": {
+      "bo": 1728033916722,
+      "ga": 1728033916722,
+      "heo": 1728033916722,
+      "cuu": 1728033916722,
+      "vit": 1728033916722,
+      "de": 1728033916722
+    },
+    "100069973091677": {
+      "bo": 1727856262441,
+      "ga": 1727856262441,
+      "heo": 1727856262441,
+      "cuu": 1727856262441,
+      "vit": 1727856262441,
+      "de": 1727856262441
+    },
+    "100049341380412": {
+      "bo": 1729040411201,
+      "ga": 1729040411201,
+      "heo": 1729040411201,
+      "cuu": 1729040411201,
+      "vit": 1729040411201,
+      "de": 1729040411201
+    },
+    "100012044921768": {
+      "bo": 1728145499381,
+      "ga": 1728145499381,
+      "heo": 1728145499381,
+      "cuu": 1728145499381,
+      "vit": 1728145499381,
+      "de": 1728145499381
+    },
+    "100066464084817": {
+      "bo": 1729250920943,
+      "ga": 1729250920943,
+      "heo": 1729250920943,
+      "cuu": 1729250920943,
+      "vit": 1729250920943,
+      "de": 1729250920943
+    },
+    "100039884092699": {
+      "bo": 1728632649282,
+      "ga": 1728632649282,
+      "heo": 1728632649282,
+      "cuu": 1728632649282,
+      "vit": 1728632649282,
+      "de": 1728632649282
+    },
+    "100076273452362": {
+      "bo": 1732685098273,
+      "ga": 1732696351994,
+      "heo": 1732696351994,
+      "cuu": 1732685098273,
+      "vit": 1732696351994,
+      "de": 1732685098273
+    },
+    "100072123252487": {
+      "bo": 1729141719565,
+      "ga": 1729141719565,
+      "heo": 1729141719565,
+      "cuu": 1729141719565,
+      "vit": 1729141719565,
+      "de": 1729141719565
+    },
+    "100087818145927": {
+      "bo": 1730194497208,
+      "ga": 1730194497208,
+      "heo": 1730194497208,
+      "cuu": 1730194497208,
+      "vit": 1730194497208,
+      "de": 1730194497208
+    },
+    "100085213902916": {
+      "bo": 1732667459883,
+      "ga": 1732667459883,
+      "heo": 1732667459883,
+      "cuu": 1732667459883,
+      "vit": 1732667459883,
+      "de": 1732667459883
+    },
+    "100093072671652": {
+      "bo": 1730682893535,
+      "ga": 1730682893535,
+      "heo": 1730682893535,
+      "cuu": 1730682893535,
+      "vit": 1730682893535,
+      "de": 1730682893535
+    },
+    "100059402833435": {
+      "bo": 1731558824972,
+      "ga": 1731558824972,
+      "heo": 1731558824972,
+      "cuu": 1731558824972,
+      "vit": 1731558824972,
+      "de": 1731558824972
+    },
+    "100088193109499": {
+      "bo": 1731909373066,
+      "ga": 1731909373066,
+      "heo": 1731909373066,
+      "cuu": 1731909373066,
+      "vit": 1731909373066,
+      "de": 1731909373066
+    },
+    "100026741162470": {
+      "bo": 1732559424759,
+      "ga": 1732559424759,
+      "heo": 1732559424759,
+      "cuu": 1732559424759,
+      "vit": 1732559424759,
+      "de": 1732559424759
+    }
+  },
+  "inventory": {
+    "100029378752728": {
+      "gà_nướng": 1,
+      "phở_bò": 1,
+      "cơm_gà": 1,
+      "bánh_mì": 2
+    },
+    "100073687778571": {
+      "gà_nướng": 1,
+      "ot": 9,
+      "ngo": 10,
+      "khoaitay": 7,
+      "caingot": 9,
+      "dautay": 5,
+      "lua_gao": 12,
+      "hanh": 7,
+      "rau_xa_lach": 6,
+      "dua_chuot": 9,
+      "ca_chua": 7,
+      "chuoi": 10,
+      "dua_hau": 4,
+      "nho": 7,
+      "khoai_lang": 4,
+      "dau_dua": 4,
+      "sua": 7,
+      "thit_bo": 3,
+      "trung": 5,
+      "thit_ga": 3,
+      "thit_heo": 6,
+      "len": 4,
+      "thit_cuu": 2,
+      "trung_vit": 5,
+      "thit_vit": 3,
+      "sua_de": 5,
+      "thit_de": 3
+    },
+    "100040668850330": {},
+    "100082398355203": {
+      "sua": 3,
+      "thit_bo": 1,
+      "trung": 5,
+      "thit_ga": 1,
+      "thit_heo": 4,
+      "len": 2,
+      "thit_cuu": 1,
+      "trung_vit": 4,
+      "thit_vit": 1,
+      "sua_de": 2,
+      "thit_de": 2,
+      "ot": 2,
+      "ngo": 2,
+      "khoaitay": 3,
+      "caingot": 4,
+      "dautay": 3,
+      "lua_gao": 5,
+      "hanh": 3,
+      "rau_xa_lach": 3,
+      "dua_chuot": 3,
+      "ca_chua": 2,
+      "chuoi": 6,
+      "dua_hau": 1,
+      "nho": 4,
+      "khoai_lang": 3,
+      "dau_dua": 2
+    },
+    "100087511867744": {},
+    "100067654132874": {},
+    "100051648671055": {},
+    "61555639724465": {
+      "ot": 11,
+      "ngo": 16,
+      "khoaitay": 12,
+      "caingot": 7,
+      "dautay": 6,
+      "lua_gao": 9,
+      "hanh": 10,
+      "rau_xa_lach": 8,
+      "dua_chuot": 6,
+      "ca_chua": 6,
+      "chuoi": 6,
+      "dua_hau": 4,
+      "nho": 8,
+      "khoai_lang": 4,
+      "dau_dua": 4,
+      "sua": 7,
+      "thit_bo": 3,
+      "trung": 6,
+      "thit_ga": 3,
+      "thit_heo": 8,
+      "len": 6,
+      "thit_cuu": 2,
+      "trung_vit": 4,
+      "thit_vit": 2,
+      "sua_de": 6,
+      "thit_de": 3
+    },
+    "100069973091677": {
+      "ot": 19,
+      "ngo": 18,
+      "khoaitay": 13,
+      "caingot": 15,
+      "dautay": 11,
+      "lua_gao": 16,
+      "hanh": 18,
+      "rau_xa_lach": 16,
+      "dua_chuot": 18,
+      "ca_chua": 15,
+      "chuoi": 15,
+      "dua_hau": 8,
+      "nho": 15,
+      "khoai_lang": 14,
+      "dau_dua": 6,
+      "sua": 2,
+      "thit_bo": 1,
+      "trung": 3,
+      "thit_ga": 1,
+      "thit_heo": 2,
+      "len": 1,
+      "thit_cuu": 1,
+      "trung_vit": 2,
+      "thit_vit": 1,
+      "sua_de": 3,
+      "thit_de": 1
+    },
+    "100049341380412": {
+      "sua": 10,
+      "thit_bo": 3,
+      "trung": 14,
+      "thit_ga": 4,
+      "thit_heo": 6,
+      "len": 8,
+      "thit_cuu": 5,
+      "trung_vit": 9,
+      "thit_vit": 4,
+      "sua_de": 6,
+      "thit_de": 6,
+      "ot": 5,
+      "ngo": 8,
+      "khoaitay": 4,
+      "caingot": 9,
+      "dautay": 4,
+      "lua_gao": 6,
+      "hanh": 7,
+      "rau_xa_lach": 6,
+      "dua_chuot": 8,
+      "ca_chua": 7,
+      "chuoi": 7,
+      "dua_hau": 5,
+      "nho": 9,
+      "khoai_lang": 5,
+      "dau_dua": 3
+    },
+    "100012044921768": {
+      "sua": 2,
+      "thit_bo": 2,
+      "trung": 3,
+      "thit_ga": 2,
+      "thit_heo": 2,
+      "len": 3,
+      "thit_cuu": 1,
+      "trung_vit": 2,
+      "thit_vit": 2,
+      "sua_de": 2,
+      "thit_de": 1
+    },
+    "100066464084817": {
+      "gà_nướng": 1,
+      "trái_cây_dầm": 1
+    },
+    "100039884092699": {},
+    "100076273452362": {
+      "phở_bò": 2,
+      "thịt_kho_trứng": 1,
+      "cơm_gà": 1,
+      "smoothie_trái_cây": 2,
+      "gà_nướng": 1,
+      "ot": 25,
+      "ngo": 21,
+      "khoaitay": 24,
+      "caingot": 19,
+      "dautay": 17,
+      "lua_gao": 25,
+      "hanh": 18,
+      "rau_xa_lach": 17,
+      "dua_chuot": 20,
+      "ca_chua": 15,
+      "chuoi": 24,
+      "dua_hau": 14,
+      "nho": 20,
+      "khoai_lang": 18,
+      "dau_dua": 7,
+      "trung": 25,
+      "thit_ga": 9,
+      "thit_heo": 17,
+      "trung_vit": 23,
+      "thit_vit": 7,
+      "sua": 6,
+      "thit_bo": 3,
+      "len": 7,
+      "thit_cuu": 4,
+      "sua_de": 8,
+      "thit_de": 4,
+      "bánh_mì": 1,
+      "trái_cây_dầm": 1,
+      "bánh_xèo": 1
+    },
+    "100079972629147": {
+      "ot": 6,
+      "ngo": 4,
+      "khoaitay": 5,
+      "caingot": 3,
+      "dautay": 2,
+      "lua_gao": 4,
+      "hanh": 2,
+      "rau_xa_lach": 3,
+      "dua_chuot": 2,
+      "ca_chua": 3,
+      "chuoi": 6,
+      "dua_hau": 3,
+      "nho": 5,
+      "khoai_lang": 4,
+      "dau_dua": 2
+    },
+    "100072123252487": {
+      "ot": 6,
+      "ngo": 9,
+      "khoaitay": 7,
+      "caingot": 7,
+      "dautay": 4,
+      "lua_gao": 8,
+      "hanh": 6,
+      "rau_xa_lach": 8,
+      "dua_chuot": 7,
+      "ca_chua": 6,
+      "chuoi": 11,
+      "dua_hau": 6,
+      "nho": 10,
+      "khoai_lang": 6,
+      "dau_dua": 3
+    },
+    "100059402833435": {},
+    "100026741162470": {
+      "ot": 3,
+      "ngo": 4,
+      "khoaitay": 4,
+      "caingot": 2,
+      "dautay": 3,
+      "lua_gao": 5,
+      "hanh": 3,
+      "rau_xa_lach": 4,
+      "dua_chuot": 2,
+      "ca_chua": 4,
+      "chuoi": 4,
+      "dua_hau": 1,
+      "nho": 2,
+      "khoai_lang": 2,
+      "dau_dua": 2,
+      "sua": 3,
+      "thit_bo": 1,
+      "trung": 2,
+      "thit_ga": 1,
+      "thit_heo": 2,
+      "len": 3,
+      "thit_cuu": 2,
+      "trung_vit": 3,
+      "thit_vit": 2,
+      "sua_de": 2,
+      "thit_de": 2
+    },
+    "100087818145927": {
+      "sua": 2,
+      "thit_bo": 1,
+      "trung": 3,
+      "thit_ga": 2,
+      "thit_heo": 2,
+      "len": 1,
+      "thit_cuu": 2,
+      "trung_vit": 3,
+      "thit_vit": 1,
+      "sua_de": 3,
+      "thit_de": 1
+    },
+    "100085213902916": {
+      "bánh_mì": 3,
+      "gà_nướng": 1,
+      "smoothie_trái_cây": 1,
+      "trái_cây_dầm": 1,
+      "bánh_xèo": 1,
+      "phở_bò": 1,
+      "thịt_kho_trứng": 2,
+      "ot": 21,
+      "ngo": 18,
+      "khoaitay": 15,
+      "caingot": 15,
+      "dautay": 13,
+      "lua_gao": 16,
+      "hanh": 15,
+      "rau_xa_lach": 14,
+      "dua_chuot": 10,
+      "ca_chua": 12,
+      "chuoi": 19,
+      "dua_hau": 10,
+      "nho": 12,
+      "khoai_lang": 11,
+      "dau_dua": 8,
+      "sua": 10,
+      "thit_bo": 8,
+      "trung": 11,
+      "thit_ga": 4,
+      "thit_heo": 9,
+      "len": 5,
+      "thit_cuu": 7,
+      "trung_vit": 12,
+      "thit_vit": 6,
+      "sua_de": 10,
+      "thit_de": 6,
+      "cơm_gà": 1
+    },
+    "100093072671652": {},
+    "100086379657779": {},
+    "100088193109499": {}
+  },
+  "cookingActivities": {
+    "100029378752728": {},
+    "100073687778571": {},
+    "100087511867744": {
+      "bánh_mì": {
+        "startTime": 1727868072077,
+        "finishTime": 1727868672077
+      }
+    },
+    "100066464084817": {
+      "bánh_mì": {
+        "startTime": 1729250946240,
+        "finishTime": 1729251546240
+      }
+    },
+    "100076273452362": {
+      "salad": {
+        "startTime": 1732696422633,
+        "finishTime": 1732697022633
+      },
+      "canh_chua": {
+        "startTime": 1732696488914,
+        "finishTime": 1732697988914
+      }
+    },
+    "100085213902916": {}
+  },
+  "lastResetDate": "Wed Nov 27 2024",
+  "lastUpdated": 1732696488914
+}

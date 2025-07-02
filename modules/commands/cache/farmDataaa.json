@@ -1,0 +1,67 @@
+{
+  "players": {
+    "100029378752728": {
+      "level": 3,
+      "exp": 875,
+      "crops": {
+        "tao": {
+          "plantedTime": 1726743128341
+        }
+      },
+      "animals": {
+        "bo": {
+          "lastFed": 1726743154857
+        },
+        "ga": {
+          "lastFed": 1726751988404
+        },
+        "heo": {
+          "lastFed": 1726743154919
+        },
+        "cuu": {
+          "lastFed": 1726743154951
+        },
+        "vit": {
+          "lastFed": 1726743154998
+        },
+        "de": {
+          "lastFed": 1726743155029
+        },
+        "tho": {
+          "lastFed": 1726749383216
+        }
+      },
+      "inventory": {
+        "sua": 3,
+        "thit_bo": 1,
+        "trung": 8,
+        "thit_ga": 2,
+        "thit_heo": 3,
+        "len": 3,
+        "thit_cuu": 1,
+        "trung_vit": 2,
+        "thit_vit": 1,
+        "sua_de": 3,
+        "thit_de": 1,
+        "long_tho": 5,
+        "thit_tho": 3,
+        "ot": 5,
+        "ngo": 2,
+        "lua_gao": 6,
+        "ca_chua": 5,
+        "dua_chuot": 4,
+        "khoai_tay": 7,
+        "ca_rot": 2,
+        "dau_tay": 3,
+        "nho": 3,
+        "dau": 6,
+        "dua_hau": 3,
+        "bi_ngo": 3,
+        "le": 3,
+        "dao": 4
+      },
+      "cookingActivities": {}
+    }
+  },
+  "lastResetDate": "Thu Sep 19 2024"
+}

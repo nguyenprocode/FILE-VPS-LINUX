@@ -1,0 +1,29 @@
+{
+  "name": "Gy Dayy",
+  "ID": "100073687778571",
+  "mainROD": null,
+  "GPS": {
+    "locate": "The Crater",
+    "area": "Crash Zone"
+  },
+  "fishBag": [],
+  "item": [
+    {
+      "name": "Tungsten Core Harpoon",
+      "price": 8000,
+      "durability": 200,
+      "countdown": 100,
+      "countdownData": null,
+      "image": "https://i.imgur.com/Ki8rCeH.png"
+    },
+    {
+      "name": "Jeweled Tungsten Harpoon",
+      "price": 29000,
+      "durability": 900,
+      "countdown": 30,
+      "countdownData": null,
+      "image": "https://i.imgur.com/P4l8Ivq.jpg"
+    }
+  ],
+  "timeRegister": "23:15:30 28/8/2024"
+}

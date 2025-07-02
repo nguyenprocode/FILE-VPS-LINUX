@@ -1,0 +1,668 @@
+{
+  "100029378752728": {
+    "money": -1498,
+    "exp": 0,
+    "level": 17,
+    "inventory": {},
+    "lastRob": 1729055749486,
+    "stolen": 1146562,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100087511867744": {
+    "money": -1,
+    "exp": 0,
+    "level": 41,
+    "inventory": {
+      "mask": 0,
+      "gun": 0,
+      "car": 0
+    },
+    "lastRob": 1728493449980,
+    "stolen": 124578335,
+    "successStreak": 0,
+    "failStreak": 6
+  },
+  "100013919389285": {
+    "money": 3,
+    "exp": 969,
+    "level": 37,
+    "inventory": {
+      "mask": 0
+    },
+    "lastRob": 1725334971356,
+    "stolen": 2686874,
+    "successStreak": 0,
+    "failStreak": 2
+  },
+  "100073687778571": {
+    "money": -3,
+    "exp": 799.2,
+    "level": 2,
+    "inventory": {
+      "car": 0,
+      "gun": 0
+    },
+    "lastRob": 1728492482950,
+    "stolen": 21588,
+    "successStreak": 0,
+    "failStreak": 4
+  },
+  "100015360281299": {
+    "money": -1,
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725066081627,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 3
+  },
+  "100024815610657": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {
+      "gun": 0
+    },
+    "lastRob": 1724985077324,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "61555639724465": {
+    "exp": 0,
+    "level": 2,
+    "inventory": {},
+    "lastRob": 1724992757870,
+    "stolen": 2126,
+    "successStreak": 1,
+    "failStreak": 0
+  },
+  "100068605300544": {
+    "exp": 0,
+    "level": 6,
+    "inventory": {},
+    "lastRob": 1728492870855,
+    "stolen": 146411,
+    "successStreak": 0,
+    "failStreak": 8
+  },
+  "100053499905461": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725505624280,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 3
+  },
+  "100043211984191": {
+    "exp": 0,
+    "level": 14,
+    "inventory": {
+      "gun": 0
+    },
+    "lastRob": 1725160324231,
+    "stolen": 802733,
+    "successStreak": 1,
+    "failStreak": 0
+  },
+  "100078179833641": {
+    "exp": 0,
+    "level": 2,
+    "inventory": {},
+    "lastRob": 1725443271459,
+    "stolen": 15185,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "61559034831223": {
+    "exp": 0,
+    "level": 7,
+    "inventory": {},
+    "lastRob": 1725120156371,
+    "stolen": 436731,
+    "successStreak": 0,
+    "failStreak": 9
+  },
+  "100008578170464": {
+    "exp": 0,
+    "level": 3,
+    "inventory": {},
+    "lastRob": 1724992796620,
+    "stolen": 267902,
+    "successStreak": 0,
+    "failStreak": 7
+  },
+  "61554521158502": {
+    "exp": 8732,
+    "level": 19,
+    "inventory": {
+      "gun": 0,
+      "mask": 0,
+      "car": 0
+    },
+    "lastRob": 1725508549843,
+    "stolen": 4659394,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100086684817711": {
+    "exp": 0,
+    "level": 7,
+    "inventory": {
+      "car": 0
+    },
+    "lastRob": 1725160547356,
+    "stolen": 137728,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "100005906739170": {
+    "exp": 967,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725017154871,
+    "stolen": 967,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "100008205553760": {
+    "exp": 410,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725017104621,
+    "stolen": 410,
+    "successStreak": 0,
+    "failStreak": 2
+  },
+  "100047096144178": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100041761960593": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100094981765305": {
+    "exp": 0,
+    "level": 12,
+    "inventory": {},
+    "lastRob": 1725160579122,
+    "stolen": 786575,
+    "successStreak": 1,
+    "failStreak": 0
+  },
+  "100034175651250": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725160357762,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100039884092699": {
+    "exp": 55008.5,
+    "level": 187,
+    "inventory": {
+      "car": 0,
+      "gun": 0,
+      "mask": 0
+    },
+    "lastRob": 1728835985849,
+    "stolen": 24458959746,
+    "successStreak": 0,
+    "failStreak": 3
+  },
+  "100082118176694": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {
+      "gun": 0
+    },
+    "lastRob": 1725381226417,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 7
+  },
+  "61564580056415": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100062067970444": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1728789699990,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 4
+  },
+  "100069828978831": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100084311979530": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725067130828,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "100068809613906": {
+    "exp": 4098,
+    "level": 6,
+    "inventory": {},
+    "lastRob": 1725334432372,
+    "stolen": 150517,
+    "successStreak": 0,
+    "failStreak": 4
+  },
+  "100075302946752": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100068333538084": {
+    "exp": 1139,
+    "level": 3,
+    "inventory": {},
+    "lastRob": 1725209962124,
+    "stolen": 44011,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "100069554070277": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725126245700,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 2
+  },
+  "100070255366205": {
+    "exp": 562,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725245900571,
+    "stolen": 562,
+    "successStreak": 0,
+    "failStreak": 2
+  },
+  "61555208933268": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725813171320,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 3
+  },
+  "61552381114869": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725209764251,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "100077015203508": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {
+      "mask": 0
+    },
+    "lastRob": 1725335078779,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 12
+  },
+  "61564271467511": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100063740390764": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "61560284588400": {
+    "exp": 0,
+    "level": 5,
+    "inventory": {},
+    "lastRob": 1730194707253,
+    "stolen": 290880,
+    "successStreak": 0,
+    "failStreak": 24
+  },
+  "100006897400369": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100074949631977": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1725461550415,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 3
+  },
+  "100063510736317": {
+    "exp": 0,
+    "level": 2,
+    "inventory": {},
+    "lastRob": 1725462055210,
+    "stolen": 419269,
+    "successStreak": 0,
+    "failStreak": 1
+  },
+  "61556206775041": {
+    "exp": 0,
+    "level": 3,
+    "inventory": {},
+    "lastRob": 1725464097304,
+    "stolen": 342112,
+    "successStreak": 1,
+    "failStreak": 0
+  },
+  "100049236341670": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "61557451471774": {
+    "exp": 0,
+    "level": 2,
+    "inventory": {},
+    "lastRob": 1725466301117,
+    "stolen": 124245,
+    "successStreak": 1,
+    "failStreak": 0
+  },
+  "100048663322448": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "61554339532462": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100026752330361": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100079309453789": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1729099948768,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 8
+  },
+  "100089964488102": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100067654132874": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {
+      "mask": 0,
+      "gun": 0,
+      "car": 0
+    },
+    "lastRob": 1728922297219,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 18
+  },
+  "100040668850330": {
+    "exp": 626.7,
+    "level": 6,
+    "inventory": {},
+    "lastRob": 1730194963956,
+    "stolen": 3128503748,
+    "successStreak": 1,
+    "failStreak": 0
+  },
+  "100074671737079": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1727888182949,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 2
+  },
+  "100079972629147": {
+    "exp": 3582.3,
+    "level": 7,
+    "inventory": {},
+    "lastRob": 1729100004472,
+    "stolen": 59989515,
+    "successStreak": 0,
+    "failStreak": 12
+  },
+  "100049341380412": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1728839350943,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100013278762542": {
+    "exp": 0,
+    "level": 2,
+    "inventory": {},
+    "lastRob": 1730220083656,
+    "stolen": 169213,
+    "successStreak": 0,
+    "failStreak": 2
+  },
+  "100064850870032": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100033950204566": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100076273452362": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1729060801408,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 10
+  },
+  "100035452185005": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100072123252487": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1730571309831,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100045487282127": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100059402833435": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100065011282682": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1729599621290,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100090150862087": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100088932333037": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "61553000056450": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  },
+  "100087818145927": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1730195148613,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 5
+  },
+  "100085213902916": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1730195038364,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 4
+  },
+  "61551472588966": {
+    "exp": 608.7,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 1730518299384,
+    "stolen": 6087,
+    "successStreak": 0,
+    "failStreak": 3
+  },
+  "61568252515454": {
+    "exp": 0,
+    "level": 1,
+    "inventory": {},
+    "lastRob": 0,
+    "stolen": 0,
+    "successStreak": 0,
+    "failStreak": 0
+  }
+}

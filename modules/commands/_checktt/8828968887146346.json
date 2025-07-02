@@ -1,0 +1,137 @@
+{
+    "total": [
+        {
+            "id": "61564580056415",
+            "count": 0
+        },
+        {
+            "id": "61563830640318",
+            "count": 0
+        },
+        {
+            "id": "61568252515454",
+            "count": 68
+        },
+        {
+            "id": "61555831794379",
+            "count": 0
+        },
+        {
+            "id": "100080418210790",
+            "count": 0
+        }
+    ],
+    "week": [
+        {
+            "id": "61564580056415",
+            "count": 0,
+            "name": "Người dùng Facebook"
+        },
+        {
+            "id": "61563830640318",
+            "count": 0,
+            "name": "Lê Kỳ Cuc"
+        },
+        {
+            "id": "61568252515454",
+            "count": 4,
+            "name": "Gia Bảo"
+        },
+        {
+            "id": "61555831794379",
+            "count": 0,
+            "name": "SATORU BOT"
+        },
+        {
+            "id": "100080418210790",
+            "count": 0
+        }
+    ],
+    "day": [
+        {
+            "id": "61564580056415",
+            "count": 0,
+            "name": "Hoàng Nguyệt Nhi"
+        },
+        {
+            "id": "61563830640318",
+            "count": 0,
+            "name": "Lê Kỳ Cuc"
+        },
+        {
+            "id": "61568252515454",
+            "count": 0,
+            "name": "Gia Bảo"
+        },
+        {
+            "id": "61555831794379",
+            "count": 0,
+            "name": "SATORU BOT"
+        },
+        {
+            "id": "100080418210790",
+            "count": 0,
+            "name": "Người dùng facebook"
+        }
+    ],
+    "time": 3,
+    "last": {
+        "time": 0,
+        "day": [
+            {
+                "id": "61564580056415",
+                "count": 0,
+                "name": "Hoàng Nguyệt Nhi"
+            },
+            {
+                "id": "61563830640318",
+                "count": 0,
+                "name": "Lê Kỳ Cuc"
+            },
+            {
+                "id": "61568252515454",
+                "count": 2,
+                "name": "Gia Bảo"
+            },
+            {
+                "id": "61555831794379",
+                "count": 0,
+                "name": "SATORU BOT"
+            },
+            {
+                "id": "100080418210790",
+                "count": 0,
+                "name": "Người dùng facebook"
+            }
+        ],
+        "week": [
+            {
+                "id": "61564580056415",
+                "count": 0,
+                "name": "Người dùng Facebook"
+            },
+            {
+                "id": "61563830640318",
+                "count": 0,
+                "name": "Lê Kỳ Cuc"
+            },
+            {
+                "id": "61568252515454",
+                "count": 57,
+                "name": "Gia Bảo"
+            },
+            {
+                "id": "61555831794379",
+                "count": 0,
+                "name": "SATORU BOT"
+            },
+            {
+                "id": "100080418210790",
+                "count": 0
+            }
+        ]
+    },
+    "lastInteraction": {
+        "61568252515454": 1732665342136
+    }
+}

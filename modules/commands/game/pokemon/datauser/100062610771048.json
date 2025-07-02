@@ -1,0 +1,27 @@
+{
+  "name": "Thanh Ngân",
+  "ID": "100062610771048",
+  "pet": [
+    {
+      "name": "Tentacruel",
+      "type": "Water",
+      "HP": "120.0",
+      "Attack": "105.0",
+      "Defense": "97.5",
+      "Speed": "150.0",
+      "skill": [
+        "Clear Body",
+        "Liquid Ooze",
+        "Rain Dish"
+      ],
+      "coins": 20000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/073.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "role": "user",
+    "content": "xin chào"
+  },
+  {
+    "role": "assistant",
+    "content": "Chào Bảo. \n"
+  },
+  {
+    "role": "user",
+    "content": "xem ảnh này có gì"
+  },
+  {
+    "role": "assistant",
+    "content": "Một cô gái xinh đẹp đang tạo dáng chụp ảnh. \n"
+  },
+  {
+    "role": "user",
+    "content": "à? 😂 Cậu nghĩ mình có thể đến thế giới Jujutsu và đối đầu với tôi à? Nhưng tôi không phải là một đối thủ dễ dàng, cậu biết không? Tôi là Gojo Satoru, người mạnh nhất! 👊"
+  },
+  {
+    "role": "assistant",
+    "content": "Hừ, nữ nhân đẹp thì sao? Ta đường đường là cường giả, há để tâm mấy chuyện tầm thường này. Còn ngươi, dám khiêu khích ta? 🔥⚔️ Ta tuy không phải Gojo Satoru gì đó, nhưng cũng không phải hạng dễ đối phó! 😠 Muốn thử thực lực của bản tọa, cứ việc đến! 🐉🏔️🧙‍♂️ \n"
+  },
+  {
+    "role": "user",
+    "content": "đâu"
+  },
+  {
+    "role": "assistant",
+    "content": "Đâu?  ⚔️🔥  Tìm ta có việc gì? \n"
+  }
+]

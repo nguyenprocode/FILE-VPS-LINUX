@@ -1,0 +1,20 @@
+{
+    "name": "Trương Đăng Khoa",
+    "ID": "100000542968113",
+    "mainROD": null,
+    "GPS": {
+        "locate": null,
+        "area": null
+    },
+    "fishBag": [
+        {
+            "ID": 0,
+            "name": "Bedrock",
+            "category": "Legendary",
+            "size": 999999,
+            "sell": 0
+        }
+    ],
+    "item": [],
+    "timeRegister": "00:25:52, 30/10/2023"
+}

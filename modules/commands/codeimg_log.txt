@@ -1,0 +1,18 @@
+[2024-10-12T11:48:00.801Z] Stderr carbon-now-cli: 
+  Warning: Preset `latest-preset` doesn’t exist. Using default settings…
+
+[2024-10-12T11:48:00.801Z] Lỗi xử lý file: ENOENT: no such file or directory, access 'C:\Users\Administrator\Downloads\gojo (1)\modules\commands\temp\temp_26734769196171774_1728733667047.png'
+[2024-10-12T11:52:36.684Z] Lỗi xử lý file: ENOENT: no such file or directory, access 'C:\Users\Administrator\Downloads\gojo (1)\modules\commands\temp\temp_26734769196171774_1728733947391.png'
+[2024-10-12T11:56:00.626Z] Lỗi xử lý file: ENOENT: no such file or directory, access 'C:\Users\Administrator\Downloads\gojo (1)\[33m>[39m Processing C:\Users\Administrator\Downloads\gojo (1)\modules\commands\temp\temp_26734769196171774_1728734149564.javascript
+[32m√[39m Processing C:\Users\Administrator\Downloads\gojo (1)\modules\commands\temp\temp_26734769196171774_1728734149564.javascript
+[33m>[39m Preparing connection
+[32m√[39m Preparing connection
+[33m>[39m Opening in browser
+[33m↓[39m Opening in browser [33m[SKIPPED: Opening in browser][39m
+[33m>[39m Fetching beautiful image
+[32m√[39m Fetching beautiful image
+[33m>[39m Copying image to clipboard
+[33m↓[39m Copying image to clipboard [33m[SKIPPED: Copying image to clipboard][39m
+[?25h
+  The file can be found here: C:\Users\Administrator\Downloads\gojo (1)\temp_26734769196171774_1728734149564-IfXzcn53ZF.png 😌'
+[2024-10-12T12:03:12.532Z] Lỗi xử lý file: undefined

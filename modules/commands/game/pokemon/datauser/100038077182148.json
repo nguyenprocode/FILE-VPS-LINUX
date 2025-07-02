@@ -1,0 +1,27 @@
+{
+  "name": "Ra Nii",
+  "ID": "100038077182148",
+  "pet": [
+    {
+      "name": "Togepi",
+      "type": "Fairy",
+      "HP": "52.5",
+      "Attack": "30.0",
+      "Defense": "97.5",
+      "Speed": "30.0",
+      "skill": [
+        "Hustle",
+        "Serene Grace",
+        "Super Luck"
+      ],
+      "coins": 20000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/175.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}

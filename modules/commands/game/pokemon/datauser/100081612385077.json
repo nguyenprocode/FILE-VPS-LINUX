@@ -1,0 +1,40 @@
+{
+  "name": "Dànhh Hípp",
+  "ID": "100081612385077",
+  "pet": [
+    {
+      "name": "Uxie",
+      "type": "Psychic",
+      "HP": "37.5",
+      "Attack": "37.5",
+      "Defense": "65.0",
+      "Speed": "47.5",
+      "skill": [
+        "Levitate"
+      ],
+      "coins": 5000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/480.png"
+    },
+    {
+      "name": "Onix",
+      "type": "Rock",
+      "HP": "14.0",
+      "Attack": "18.0",
+      "Defense": "64.0",
+      "Speed": "28.0",
+      "skill": [
+        "Rock Head",
+        "Sturdy",
+        "Weak Armor"
+      ],
+      "coins": 0,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/095.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}

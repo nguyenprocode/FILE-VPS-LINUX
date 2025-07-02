@@ -1,0 +1,21 @@
+{
+  "name": "Hiếu Thuận",
+  "ID": "100043211984191",
+  "mainROD": null,
+  "GPS": {
+    "locate": null,
+    "area": null
+  },
+  "fishBag": [],
+  "item": [
+    {
+      "name": "D.U Core Harpoon",
+      "price": 17500,
+      "durability": 450,
+      "countdown": 60,
+      "countdownData": null,
+      "image": "https://i.imgur.com/vWRvdAP.png"
+    }
+  ],
+  "timeRegister": "11:54:28 28/8/2024"
+}

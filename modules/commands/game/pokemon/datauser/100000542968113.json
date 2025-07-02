@@ -1,0 +1,41 @@
+{
+  "name": "Trương Đăng Khoa",
+  "ID": "100000542968113",
+  "pet": [
+    {
+      "name": "Swinub",
+      "type": "Ice",
+      "HP": "75.0",
+      "Attack": "75.0",
+      "Defense": "60.0",
+      "Speed": "75.0",
+      "skill": [
+        "Oblivious",
+        "Snow Cloak",
+        "Thick Fat"
+      ],
+      "coins": 20000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/220.png"
+    },
+    {
+      "name": "Cradily",
+      "type": "Rock",
+      "HP": "129.0",
+      "Attack": "121.5",
+      "Defense": "145.5",
+      "Speed": "64.5",
+      "skill": [
+        "Suction Cups",
+        "Storm Drain"
+      ],
+      "coins": 20000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/346.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}
