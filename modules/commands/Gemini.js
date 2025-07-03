@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 
-const API_KEY = 'AIzaSyA-Mh8WsFcAU_sCigmwlKxCwKaWgvuSoRo';
+const API_KEY = 'AIzaSyD4-7zwv1D6oFTU_97Aiok74z5U7nrlI_Y';
 const model = "gemini-1.5-pro-latest";
 const GENAI_DISCOVERY_URL = `https://generativelanguage.googleapis.com/$discovery/rest?version=v1beta&key=${API_KEY}`;
 
