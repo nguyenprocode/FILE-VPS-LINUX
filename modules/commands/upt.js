@@ -1,151 +1,340 @@
 const os = require('os');
 const moment = require('moment-timezone');
 const fs = require('fs').promises;
-const util = require('util');
-const exec = util.promisify(require('child_process').exec);
+const nodeDiskInfo = require('node-disk-info');
+const path = require('path');
+
+const formatSize = (size) => {
+    if (size < 1024) return `${size} B`;
+    else if (size < 1024 * 1024) return `${(size / 1024).toFixed(2)} KB`;
+    else return `${(size / (1024 * 1024)).toFixed(2)} MB`;
+};
+
+const getTotalSize = async (dirPath) => {
+    let totalSize = 0;
+
+    const calculateSize = async (filePath) => {
+        const stats = await fs.stat(filePath);
+        if (stats.isFile()) {
+            totalSize += stats.size;
+        } else if (stats.isDirectory()) {
+            const fileNames = await fs.readdir(filePath);
+            await Promise.all(fileNames.map(fileName => calculateSize(path.join(filePath, fileName))));
+        }
+    };
+
+    await calculateSize(dirPath);
+
+    return totalSize;
+};
 
 module.exports = {
     config: {
         name: "upt",
-        version: "3.1.0",
-        hasPermission: 2,
+        version: "2.1.4",
+        hasPermission: 0,
+        Rent: 2,
         credits: "Vtuan rmk Niio-team",
-        description: "Hiển thị thông tin hệ thống của bot",
+        description: "Hiển thị thông tin hệ thống của bot!",
         commandCategory: "Admin",
-        usages: "[cpu/ram/all]",
+        usages: "",
         cooldowns: 5,
-        image: []
+        usePrefix: false,
     },
-    run: async ({ api, event, args }) => {
-        const startTime = Date.now();
+    run: async ({ api, event, Users, args }) => {
+        const startPing = Date.now();
 
-        function getSystemRAMUsage() {
-            const totalMem = os.totalmem();
-            const freeMem = os.freemem();
-            const usedMem = totalMem - freeMem;
-            return {
-                totalMem: Math.round(totalMem / 1024 / 1024),
-                usedMem: Math.round(usedMem / 1024 / 1024),
-                freeMem: Math.round(freeMem / 1024 / 1024)
-            };
-        }
-
-        function getHeapMemoryUsage() {
-            const heap = process.memoryUsage();
-            return {
-                heapTotal: Math.round(heap.heapTotal / 1024 / 1024),
-                heapUsed: Math.round(heap.heapUsed / 1024 / 1024),
-                external: Math.round(heap.external / 1024 / 1024),
-                rss: Math.round(heap.rss / 1024 / 1024)
-            };
-        }
-
-        async function getDependencyCount() {
+        const getDependencyCount = async () => {
             try {
                 const packageJsonString = await fs.readFile('package.json', 'utf8');
                 const packageJson = JSON.parse(packageJsonString);
                 return Object.keys(packageJson.dependencies).length;
             } catch (error) {
-                console.error('Không thể đọc file package.json:', error);
+                console.error('❎ Không thể đọc file package.json:', error);
                 return -1;
             }
-        }
+        };
 
-        function getFilteredUptime() {
-            const uptime = process.uptime();
-            const days = Math.floor(uptime / (24 * 60 * 60));
-            const hours = Math.floor((uptime % (24 * 60 * 60)) / (60 * 60));
-            const minutes = Math.floor((uptime % (60 * 60)) / 60);
-            const seconds = Math.floor(uptime % 60);
+        const p = args[0] || './';
+        const f = await fs.readdir(p);
 
-            let uptimeString = '';
-            if (days > 0) uptimeString += `${days} ngày `;
-            if (hours > 0) uptimeString += `${hours} giờ `;
-            if (minutes > 0) uptimeString += `${minutes} phút `;
-            if (seconds > 0 || uptimeString === '') uptimeString += `${seconds} giây`;
+        let totalSize = 0;
 
-            return uptimeString.trim();
-        }
+        await Promise.all(f.map(async (n) => {
+            const filePath = path.join(p, n);
+            const stats = await fs.stat(filePath);
 
-        async function getCPUUsage() {
-            const startMeasure = process.cpuUsage();
-            await new Promise(resolve => setTimeout(resolve, 100));
-            const endMeasure = process.cpuUsage(startMeasure);
-            const userUsage = endMeasure.user / 1000000;
-            const systemUsage = endMeasure.system / 1000000;
-            return (userUsage + systemUsage).toFixed(1);
-        }
+            if (stats.isDirectory()) {
+                const dirSize = await getTotalSize(filePath);
+                totalSize += dirSize;
+            } else {
+                totalSize += stats.size;
+            }
+        }));
 
-        const systemRAM = getSystemRAMUsage();
-        const heapMemory = getHeapMemoryUsage();
-        const uptimeString = getFilteredUptime();
+        const getStatusByPing = (ping) => ping < 200 ? 'mượt mà' : ping < 800 ? 'trung bình' : 'chậm';
+
+        const memoryUsage = process.memoryUsage();
+        const totalMemory = os.totalmem();
+        const freeMemory = os.freemem();
+        const usedMemory = totalMemory - freeMemory;
+        const uptime = process.uptime();
+        const [uptimeHours, uptimeMinutes, uptimeSeconds] = [
+            Math.floor(uptime / 3600),
+            Math.floor((uptime % 3600) / 60),
+            Math.floor(uptime % 60)
+        ];
+        const name = await Users.getNameUser(event.senderID);
         const dependencyCount = await getDependencyCount();
-        const cpuUsage = await getCPUUsage();
+        const botStatus = getStatusByPing(Date.now() - startPing);
 
         try {
-            const pingReal = Date.now() - startTime;
-            const botStatus = (pingReal < 200) ? 'mượt mà' : (pingReal < 800) ? 'bình thường' : 'lag';
+            const disks = await nodeDiskInfo.getDiskInfo();
+            const firstDisk = disks[0] || {};
 
-            const fullInfo = `
-⏰ Thời gian hiện tại: ${moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss | DD/MM/YYYY')}
-⏱️ Thời gian hoạt động: ${uptimeString}
-📝 Tiền tố lệnh mặc định: ${global.config.PREFIX}
-🗂️ Số lượng gói phụ thuộc: ${dependencyCount >= 0 ? dependencyCount : "Không xác định"}
+            const convertToGB = (bytes) => bytes ? (bytes / (1024 * 1024 * 1024)).toFixed(2) + 'GB' : 'Không xác định';
+
+            const pingReal = Date.now() - startPing;
+
+            const replyMsg = `
+🕒 ${moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss')} | 📅 ${moment().tz('Asia/Ho_Chi_Minh').format('DD/MM/YYYY')}
+⌛ Thời gian hoạt động: ${uptimeHours.toString().padStart(2, '0')}:${uptimeMinutes.toString().padStart(2, '0')}:${uptimeSeconds.toString().padStart(2, '0')}
 🔣 Trạng thái bot: ${botStatus}
-📋 Hệ điều hành: ${os.type()} ${os.release()} (${os.arch()})
-💻 CPU: ${os.cpus().length} core(s)
-   Sử dụng: ${cpuUsage}%
-📊 RAM hệ thống: ${systemRAM.usedMem}MB/${systemRAM.totalMem}MB (đã sử dụng)
-🧠 Bộ nhớ Heap:
-   Tổng: ${heapMemory.heapTotal}MB
-   Đã dùng: ${heapMemory.heapUsed}MB
-   Bên ngoài: ${heapMemory.external}MB
-   RSS: ${heapMemory.rss}MB
-🛢️ RAM hệ thống còn trống: ${(systemRAM.freeMem / 1024).toFixed(2)}GB
+🛢️ Tổng RAM: ${(totalMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+🔍 RAM còn lại: ${(freeMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+💾 RAM đã sử dụng: ${(usedMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+📈 Sử dụng RAM RSS: ${(memoryUsage.rss / 1024 / 1024).toFixed(2)}MB
+📊 Tổng Heap: ${(memoryUsage.heapTotal / 1024 / 1024).toFixed(2)}MB
+🔋 Heap Đã sử dụng: ${(memoryUsage.heapUsed / 1024 / 1024).toFixed(2)}MB
+🔍 Bộ nhớ bên ngoài: ${(memoryUsage.external / 1024 / 1024).toFixed(2)}MB
+📊 Dung lượng lưu trữ còn lại: ${convertToGB(firstDisk.available)}
+🗂️ Tổng số gói: ${dependencyCount >= 0 ? dependencyCount : "Không xác định"}
 🛜 Ping: ${pingReal}ms
+💾 Tổng kích thước tập tin: ${formatSize(totalSize)}
+👤 Yêu cầu bởi: ${name}
 `.trim();
 
-            const cpuInfo = `
-💻 Thông tin CPU:
-   Số core: ${os.cpus().length}
-   Sử dụng: ${cpuUsage}%
-`.trim();
-
-            const ramInfo = `
-📊 Thông tin RAM:
-   Tổng RAM hệ thống: ${systemRAM.totalMem}MB
-   RAM đã sử dụng: ${systemRAM.usedMem}MB
-   RAM còn trống: ${systemRAM.freeMem}MB
-🧠 Bộ nhớ Heap:
-   Tổng: ${heapMemory.heapTotal}MB
-   Đã dùng: ${heapMemory.heapUsed}MB
-   Bên ngoài: ${heapMemory.external}MB
-   RSS: ${heapMemory.rss}MB
-`.trim();
-
-            let replyMsg = '';
-            const command = args[0]?.toLowerCase();
-
-            switch (command) {
-                case 'cpu':
-                    replyMsg = cpuInfo;
-                    break;
-                case 'ram':
-                    replyMsg = ramInfo;
-                    break;
-                case 'all':
-                default:
-                    replyMsg = fullInfo;
-            }
-
-            api.sendMessage({
-                body: replyMsg,
-                attachment: global.a.splice(0, 1), 
-            }, event.threadID, event.messageID);
-
+            api.sendMessage(replyMsg, event.threadID, event.messageID);
         } catch (error) {
-            console.error('Lỗi khi lấy thông tin hệ thống:', error.message);
-            api.sendMessage('Đã xảy ra lỗi khi lấy thông tin hệ thống.', event.threadID, event.messageID);
+            console.error('❎ Lỗi khi lấy thông tin đĩa:', error.message);
         }
     }
 };
+
+
+// const os = require('os');
+// const moment = require('moment-timezone');
+// const fs = require('fs').promises;
+// const nodeDiskInfo = require('node-disk-info');
+// const path = require('path');
+
+// const formatSize = (size) => {
+//     if (size < 1024) return `${size} B`;
+//     else if (size < 1024 * 1024) return `${(size / 1024).toFixed(2)} KB`;
+//     else return `${(size / (1024 * 1024)).toFixed(2)} MB`;
+// };
+
+// const getTotalSize = async (dirPath) => {
+//     let totalSize = 0;
+
+//     const calculateSize = async (filePath) => {
+//         const stats = await fs.stat(filePath);
+//         if (stats.isFile()) {
+//             totalSize += stats.size;
+//         } else if (stats.isDirectory()) {
+//             const fileNames = await fs.readdir(filePath);
+//             await Promise.all(fileNames.map(fileName => calculateSize(path.join(filePath, fileName))));
+//         }
+//     };
+
+//     await calculateSize(dirPath);
+
+//     return totalSize;
+// };
+
+// module.exports = {
+//     config: {
+//         name: "upt",
+//         version: "2.1.4",
+//         hasPermission: 0,
+//         Rent: 2,
+//         credits: "Vtuan rmk Niio-team",
+//         description: "Display system information of the bot!",
+//         commandCategory: "Admin",
+//         usages: "",
+//         cooldowns: 5,
+//         usePrefix: false,
+//     },
+//     run: async ({ api, event, Users, args }) => {
+//         const startPing = Date.now();
+
+//         const getDependencyCount = async () => {
+//             try {
+//                 const packageJsonString = await fs.readFile('package.json', 'utf8');
+//                 const packageJson = JSON.parse(packageJsonString);
+//                 return Object.keys(packageJson.dependencies).length;
+//             } catch (error) {
+//                 console.error('❎ Cannot read package.json file:', error);
+//                 return -1;
+//             }
+//         };
+
+//         const p = args[0] || './';
+//         const f = await fs.readdir(p);
+
+//         let totalSize = 0;
+
+//         await Promise.all(f.map(async (n) => {
+//             const filePath = path.join(p, n);
+//             const stats = await fs.stat(filePath);
+
+//             if (stats.isDirectory()) {
+//                 const dirSize = await getTotalSize(filePath);
+//                 totalSize += dirSize;
+//             } else {
+//                 totalSize += stats.size;
+//             }
+//         }));
+
+//         const getStatusByPing = (ping) => ping < 200 ? 'smooth' : ping < 800 ? 'average' : 'lag';
+
+//         const memoryUsage = process.memoryUsage();
+//         const totalMemory = os.totalmem();
+//         const freeMemory = os.freemem();
+//         const usedMemory = totalMemory - freeMemory;
+//         const uptime = process.uptime();
+//         const [uptimeHours, uptimeMinutes, uptimeSeconds] = [
+//             Math.floor(uptime / 3600),
+//             Math.floor((uptime % 3600) / 60),
+//             Math.floor(uptime % 60)
+//         ];
+//         const name = await Users.getNameUser(event.senderID);
+//         const dependencyCount = await getDependencyCount();
+//         const botStatus = getStatusByPing(Date.now() - startPing);
+
+//         try {
+//             const disks = await nodeDiskInfo.getDiskInfo();
+//             const firstDisk = disks[0] || {};
+
+//             const convertToGB = (bytes) => bytes ? (bytes / (1024 * 1024 * 1024)).toFixed(2) + 'GB' : 'N/A';
+
+//             const pingReal = Date.now() - startPing;
+
+//             const replyMsg = `
+// 🕒 ${moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss')} | 📅 ${moment().tz('Asia/Ho_Chi_Minh').format('DD/MM/YYYY')}
+// ⌛ Uptime: ${uptimeHours.toString().padStart(2, '0')}:${uptimeMinutes.toString().padStart(2, '0')}:${uptimeSeconds.toString().padStart(2, '0')}
+// 🔣 Bot status: ${botStatus}
+// 🛢️ Total RAM: ${(totalMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+// 🔍 Free RAM: ${(freeMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+// 💾 Used RAM: ${(usedMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+// 📈 RSS Memory Usage: ${(memoryUsage.rss / 1024 / 1024).toFixed(2)}MB
+// 📊 Heap Total: ${(memoryUsage.heapTotal / 1024 / 1024).toFixed(2)}MB
+// 🔋 Heap Used: ${(memoryUsage.heapUsed / 1024 / 1024).toFixed(2)}MB
+// 🔍 External Memory: ${(memoryUsage.external / 1024 / 1024).toFixed(2)}MB
+// 📊 Free storage: ${convertToGB(firstDisk.available)}
+// 🗂️ Total packages: ${dependencyCount >= 0 ? dependencyCount : "Unknown"}
+// 🛜 Ping: ${pingReal}ms
+// 💾 Total File Size: ${formatSize(totalSize)}
+// 👤 Requested by: ${name}
+// `.trim();
+
+//             api.sendMessage(replyMsg, event.threadID, event.messageID);
+//         } catch (error) {
+//             console.error('❎ Error getting disk information:', error.message);
+//         }
+//     }
+// };
+
+
+
+
+// const os = require('os');
+// const moment = require('moment-timezone');
+// const fs = require('fs').promises;
+// const nodeDiskInfo = require('node-disk-info');
+
+// module.exports = {
+//     config: {
+//         name: "upt",
+//         version: "2.1.4", // Updated version for changes
+//         hasPermission: 2,
+//         credits: "Vtuan rmk Niio-team",
+//         description: "Hiển thị thông tin hệ thống của bot!",
+//         commandCategory: "Thống kê",
+//         usages: "",
+//         cooldowns: 5
+//     },
+//     run: async ({ api, event, Users }) => {
+//         const ping = Date.now();
+//         async function getDependencyCount() {
+//             try {
+//                 const packageJsonString = await fs.readFile('package.json', 'utf8');
+//                 const packageJson = JSON.parse(packageJsonString);
+//                 const depCount = Object.keys(packageJson.dependencies).length;
+//                 return depCount;
+//             } catch (error) {
+//                 console.error('❎ Không thể đọc file package.json:', error);
+//                 return -1;
+//             }
+//         }
+//         function getStatusByPing(pingReal) {
+//             if (pingReal < 200) {
+//                 return 'mượt';
+//             } else if (pingReal < 800) {
+//                 return 'trung bình';
+//             } else {
+//                 return 'mượt';
+//             }
+//         }
+//         function getPrimaryIP() {
+//             const interfaces = os.networkInterfaces();
+//             for (let iface of Object.values(interfaces)) {
+//                 for (let alias of iface) {
+//                     if (alias.family === 'IPv4' && !alias.internal) {
+//                         return alias.address;
+//                     }
+//                 }
+//             }
+//             return '127.0.0.1';
+//         }
+//         const totalMemory = os.totalmem();
+//         const freeMemory = os.freemem();
+//         const usedMemory = totalMemory - freeMemory;
+//         const uptime = process.uptime();
+//         const uptimeHours = Math.floor(uptime / (60 * 60));
+//         const uptimeMinutes = Math.floor((uptime % (60 * 60)) / 60);
+//         const uptimeSeconds = Math.floor(uptime % 60);
+//         let name = await Users.getNameUser(event.senderID);
+//         const dependencyCount = await getDependencyCount();
+//         const botStatus = getStatusByPing(ping);
+//         const primaryIp = getPrimaryIP();
+//         try {
+//             const disks = await nodeDiskInfo.getDiskInfo();
+//             const firstDisk = disks[0] || {}; // Use the first disk, or an empty object if no disks are found
+//             const usedSpace = firstDisk.blocks - firstDisk.available;
+//             function convertToGB(bytes) {
+//                 if (bytes === undefined) return 'N/A'; // Handle undefined value
+//                 const GB = bytes / (1024 * 1024 * 1024);
+//                 return GB.toFixed(2) + 'GB';
+//             }
+//             const pingReal = Date.now() - ping
+//             const replyMsg = `⏰ Bây giờ là: ${moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss')} | ${moment().tz('Asia/Ho_Chi_Minh').format('DD/MM/YYYY')}
+// ⏱️ Thời gian đã hoạt động: ${uptimeHours.toString().padStart(2, '0')}:${uptimeMinutes.toString().padStart(2, '0')}:${uptimeSeconds.toString().padStart(2, '0')}
+// 📝 Dấu lệnh mặc định: ${global.config.PREFIX}
+// 🗂️ Số lượng package: ${dependencyCount >= 0 ? dependencyCount : "Không xác định"}
+// 🔣 Tình trạng bot: ${botStatus}
+// 📋 Hệ điều hành: ${os.type()} ${os.release()} (${os.arch()})
+// 💾 CPU: ${os.cpus().length} core(s) - ${os.cpus()[0].model} @ ${Math.round(os.cpus()[0].speed)}MHz
+// 📊 RAM: ${(usedMemory / 1024 / 1024 / 1024).toFixed(2)}GB/${(totalMemory / 1024 / 1024 / 1024).toFixed(2)}GB (đã dùng)
+// 🛢️ Ram trống: ${(freeMemory / 1024 / 1024 / 1024).toFixed(2)}GB
+// 🗄️ Storage: ${convertToGB(firstDisk.used)}/${convertToGB(firstDisk.blocks)} (đã dùng)
+// 📑 Storage trống: ${convertToGB(firstDisk.available)}
+// 🛜 Ping: ${pingReal}ms
+// 👤 Yêu cầu bởi: ${name}
+//   `.trim();
+//             api.sendMessage(replyMsg, event.threadID, event.messageID);
+//         } catch (error) {
+//             console.error('❎ Error getting disk information:', error.message);
+//         }
+//     }
+// };
